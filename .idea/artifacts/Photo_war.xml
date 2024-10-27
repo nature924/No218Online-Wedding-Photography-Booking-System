@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Photo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Photo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Photo-3.0.war">
+      <element id="artifact" artifact-name="Photo:war exploded" />
+    </root>
+  </artifact>
+</component>
